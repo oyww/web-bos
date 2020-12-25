@@ -102,4 +102,16 @@ public class StaffAction extends BaseAction<Staff> {
 
        responseJson(list,new String[]{"telephone","haspda","deltag","station","standard"});
     }
+    /**
+     * 查询所有未删除的取派员，返回json
+     */
+    public String ajaxlist(){
+        List<Staff> list = staffService.findAllWithNoDelete();
+        try {
+            this.responseJson(list, new String[]{"decidedzones"});
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return NONE;
+    }
 }

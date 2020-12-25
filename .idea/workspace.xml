@@ -6,26 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c3c3dd7-57f4-43a5-973f-d665fc5f12b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ehcache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/IRoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/RoleDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IRoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/RoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/utils/BosContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/ProcessDefinitionAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/ProcessInstanceAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/RoleAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/TaskAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/check.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/grouptask.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/image.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/personaltask.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/processdefinition_deploy.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/processdefinition_list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/processinstance.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/startransfer.jsp" />
+    <list default="true" id="3c3c3dd7-57f4-43a5-973f-d665fc5f12b2" name="Default" comment="合并完成代码">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/adapters/standalone-framework.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/adapters/standalone-framework.src.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/highcharts-3d.js" />
@@ -72,61 +53,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/备份/index.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/备份/subarea.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/beans.xml" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/com/gyf/bos/model/Workordermanage.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/com/gyf/bos/model/Workordermanage.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function_add.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function_add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role_add.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role_add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userinfo.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userinfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userlist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userlist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/region.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/region.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/staff.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/staff.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/subarea.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/subarea.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/common/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/common/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bos-web/beans.xml" afterPath="$PROJECT_DIR$/out/production/bos-web/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bos-web/com/gyf/bos/model/Workordermanage.hbm.xml" afterPath="$PROJECT_DIR$/out/production/bos-web/com/gyf/bos/model/Workordermanage.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bos-web/struts.xml" afterPath="$PROJECT_DIR$/out/production/bos-web/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/beans.xml" afterPath="$PROJECT_DIR$/resources/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/struts.xml" afterPath="$PROJECT_DIR$/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/IFunctionDao.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/IFunctionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/ISubareaDao.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/ISubareaDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/BaseDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/BaseDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/IBaseDao.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/IBaseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/FunctionDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/FunctionDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/SubareaDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/SubareaDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/Role.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/User.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.hbm.xml" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/IFunctionService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IFunctionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/ISubareaService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/ISubareaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/IUserService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/IWorkordermanageService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IWorkordermanageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/base/BaseServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/base/BaseServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/FunctionServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/FunctionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/SubareaServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/SubareaServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/WorkordermanageServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/WorkordermanageServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/FunctionAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/FunctionAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/qupai/diaodu.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/qupai/diaodu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/SubareaAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/SubareaAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/UserAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/UserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/WorkordermanageAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/WorkordermanageAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/realm/BOSRealm.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/realm/BOSRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml" afterPath="$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function_add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function_add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role_add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role_add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userinfo.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userinfo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userlist.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userlist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/base/region.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/base/region.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/base/staff.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/base/staff.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/base/subarea.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/base/subarea.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/common/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/common/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/qupai/diaodu.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/qupai/diaodu.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,15 +67,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/备份/index.jsp">
+      <file leaf-file-name="diaodu.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/qupai/diaodu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4293">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1526521027172" expanded="true" signature="3990:4029" ph="..." />
-                <marker date="1526521027172" expanded="true" signature="4114:4146" ph="..." />
-              </folding>
+            <state relative-caret-position="141">
+              <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,6 +115,7 @@
       <find>WorkOrderManage</find>
       <find>RepositoryService</find>
       <find>workOrderManageAction</find>
+      <find>noticebill_findnoassociations</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gyf/bos/service/IRegionService.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/IRegionDao.java" />
         <option value="$PROJECT_DIR$/test/com/test/hessian-service/CustomerService.java" />
         <option value="$PROJECT_DIR$/test/com/test/hessian-service/Customer.java" />
@@ -214,7 +150,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/base/staff.jsp" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/service/impl/StaffServiceImpl.java" />
         <option value="$PROJECT_DIR$/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/utils/dfghj.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/quartz/MyJob.java" />
@@ -238,6 +173,8 @@
         <option value="$PROJECT_DIR$/resources/beans.xml" />
         <option value="$PROJECT_DIR$/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/FunctionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/qupai/diaodu.jsp" />
       </list>
     </option>
   </component>
@@ -310,6 +247,37 @@
             <path>
               <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gyf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gyf" type="462c0819:PsiDirectoryNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,6 +292,14 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="qupai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
@@ -552,7 +528,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="RestServices" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6302368" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75227684" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16363636" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48727274" sideWeight="0.5030534" order="7" side_tool="true" content_ui="tabs" />
@@ -568,7 +544,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909092" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859745" sideWeight="0.49694657" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3132969" sideWeight="0.49694657" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -586,7 +562,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增定时任务功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增定时任务功能" />
+    <MESSAGE value="合并完成代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并完成代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,94 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="131" column="16" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/DecidedzoneAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1500">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/NoticebillAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/RegionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2256">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/WorkordermanageAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/DecidedzoneDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/NoticebillDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/RegionDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/StaffDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-933">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/WorkbillDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -971,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="78" column="44" lean-forward="false" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
@@ -1029,6 +910,102 @@
             <marker date="1526521027172" expanded="true" signature="3990:4029" ph="..." />
             <marker date="1526521027172" expanded="true" signature="4114:4146" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="107" column="26" lean-forward="false" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="126" column="16" lean-forward="false" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/grouptask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/image.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/personaltask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/processdefinition_deploy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/processdefinition_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/processinstance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/workflow/startransfer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/qupai/diaodu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
