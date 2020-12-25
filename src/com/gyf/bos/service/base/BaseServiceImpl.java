@@ -10,6 +10,10 @@ import java.util.List;
 
 public abstract class BaseServiceImpl<T> implements IBaseService<T> {
 
+
+    @Autowired
+    protected IUserDao userDao;
+
     //业务通知单dao
     @Autowired
     protected INoticebillDao noticebillDao;
@@ -28,4 +32,8 @@ public abstract class BaseServiceImpl<T> implements IBaseService<T> {
 
     @Autowired
     protected IFunctionDao functionDao;
+
+
+    @Autowired
+    protected IRoleDao roleDao;//角色dao
 }

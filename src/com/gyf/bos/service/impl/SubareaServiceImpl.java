@@ -60,4 +60,9 @@ public class SubareaServiceImpl extends BaseServiceImpl<Subarea> implements ISub
         dc.add(Restrictions.isNull("decidedzone"));
         return subareaDao.findAllByDetachedCriteria(dc);
     }
+
+    @Override
+    public List<Object> findSubareasGroupByProvince() {
+        return subareaDao.findSubareasGroupByProvince();
+    }
 }

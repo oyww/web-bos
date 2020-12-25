@@ -2,6 +2,7 @@ package com.gyf.bos.web.action;
 
 import com.gyf.bos.model.PageBean;
 import com.gyf.bos.model.Staff;
+import com.gyf.bos.model.Subarea;
 import com.gyf.bos.model.User;
 import com.gyf.bos.service.IStaffService;
 import com.gyf.bos.service.IUserService;
@@ -15,21 +16,20 @@ import org.apache.shiro.subject.Subject;
 import org.apache.struts2.ServletActionContext;
 import org.hibernate.criterion.DetachedCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Controller;
+
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
-@Controller
-@Scope("prototype")
+
 public class StaffAction extends BaseAction<Staff> {
 
     Logger logger = Logger.getLogger(StaffAction.class);
 
-    //通过注解给方法指定允许的权限
-    @RequiresPermissions(value = "staff")
+
+    //@RequiresPermissions ("staff")
+    @Override
     public String save() {
         logger.info(getModel());
         staffService.save(getModel());
@@ -53,10 +53,9 @@ public class StaffAction extends BaseAction<Staff> {
     }
     @Override
     public String delete() throws IOException {
-        //代码权限控制
-        Subject subject = SecurityUtils.getSubject();
-        subject.checkPermissions("admin");
-        //-----------------------------------
+      /*  Subject subject = SecurityUtils.getSubject();
+        subject.checkPermission("delete");*/
+        SecurityUtils.getSubject().checkPermission("delete");
         //1.获取删除的id
 
         //2.调用service

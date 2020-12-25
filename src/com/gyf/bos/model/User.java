@@ -1,7 +1,10 @@
 package com.gyf.bos.model;
 
+import sun.org.mozilla.javascript.internal.EcmaError;
+
 import java.io.Serializable;
-import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,6 +19,23 @@ public class User implements Serializable{
     private String telephone;
     private String remark;
 
+    public String getBirthdayStr(){
+       try {
+           SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+           return  sdf.format(birthday);
+       }catch (Exception e){
+           return "";
+       }
+
+    }
+
+    public String getRolesStr(){
+        String str = "";
+        for (Role role : roles){
+            str += role.getName() + "、";
+        }
+        return str;
+    }
     private Set<Role> roles = new HashSet<Role>();
 
     public Set<Role> getRoles() {

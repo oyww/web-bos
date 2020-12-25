@@ -51,4 +51,6 @@ public interface IBaseDao<T> {
      * @param pb
      */
     public void pageQuery(PageBean<T> pb);
+
+    public T findById(Serializable id);
 }

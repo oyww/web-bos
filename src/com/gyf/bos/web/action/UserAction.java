@@ -3,12 +3,15 @@ package com.gyf.bos.web.action;
 import com.gyf.bos.model.User;
 import com.gyf.bos.utils.MD5Utils;
 import com.gyf.bos.web.action.base.BaseAction;
+import org.activiti.engine.RepositoryService;
+import org.apache.commons.lang.ArrayUtils;
 import org.apache.log4j.Logger;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.apache.struts2.ServletActionContext;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,9 +21,13 @@ public class UserAction extends BaseAction<User> {
 
     //创建了一个日志对象
     Logger logger = Logger.getLogger(UserAction.class);
+
+    @Autowired
+    private RepositoryService rs;
     public String login(){
         logger.info(getModel());
 
+        System.out.println(rs);//如果有值，代码spring中acitivi的配置木有问题
         //1.获取参数
         String username = getModel().getUsername();
         String password = getModel().getPassword();
@@ -60,8 +67,28 @@ public class UserAction extends BaseAction<User> {
         return "loginfailure";
     }
 
+    private String[] roleIds;
+
+    public void setRoleIds(String[] roleIds) {
+        this.roleIds = roleIds;
+    }
+
     @Override
     public String save() {
+        System.out.println(getModel());
+        System.out.println(ArrayUtils.toString(roleIds));
+
+        //修改密码
+        String pwd = MD5Utils.text2md5(getModel().getPassword());
+        getModel().setPassword(pwd);
+
+        if(roleIds != null && roleIds.length != 0){
+            userService.save(getModel(),roleIds);
+        }else{
+            logger.info("roleIds不能为空....");
+        }
+
+
         return null;
     }
 
@@ -105,5 +132,13 @@ public class UserAction extends BaseAction<User> {
         response.getWriter().print("{\"success\":\"1\"}");
 
         return NONE;
+    }
+
+    public void pageQuery() throws IOException {
+        pb.setCurrentPage(page);
+        pb.setPageSize(rows);
+        userService.pageQuery(pb);
+        responseJson(pb,new String[]{"currentPage","pageSize","detachedCriteria","roles"});
+
     }
 }

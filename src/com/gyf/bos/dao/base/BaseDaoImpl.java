@@ -138,4 +138,9 @@ public class BaseDaoImpl<T> implements IBaseDao<T>{
         List<T> rows = hibernateTemplate.findByCriteria(dc,start,length);
         pb.setRows(rows);
     }
+
+    @Override
+    public T findById(Serializable id) {
+        return this.hibernateTemplate.get(entityClass, id);
+    }
 }

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -57,7 +58,7 @@
 		}
 
 		var idsStr = ids.join(',');//连接字符串
-		alert('id是：'+idsStr);
+		alert(idsStr);
 
 		//2.访问staffAction_delete.action?ids=A01,A02,A03
 		$.post(
@@ -91,12 +92,17 @@
 		text : '增加',
 		iconCls : 'icon-add',
 		handler : doAdd
-	}, {
-		id : 'button-delete',
-		text : '作废',
-		iconCls : 'icon-cancel',
-		handler : doDelete
-	},{
+	},
+		<shiro:hasPermission name="staff.delete">
+			{
+				id : 'button-delete',
+				text : '作废',
+				iconCls : 'icon-cancel',
+				handler : doDelete
+			},
+        </shiro:hasPermission>
+
+		{
 		id : 'button-save',
 		text : '还原',
 		iconCls : 'icon-save',
@@ -251,10 +257,12 @@
 	<div class="easyui-window" title="对收派员进行添加或者修改" id="addStaffWindow" collapsible="false" minimizable="false" maximizable="false" style="top:20px;left:200px">
 		<div region="north" style="height:31px;overflow:hidden;" split="false" border="false" >
 			<div class="datagrid-toolbar">
-				<a id="save" icon="icon-save" href="#" class="easyui-linkbutton" plain="true" >保存</a>
-			</div>
+				<shiro:hasPermission name="staff">
+					<a id="save" icon="icon-save" href="#" class="easyui-linkbutton" plain="true" >保存</a>
+				</shiro:hasPermission>
+				</div>
 		</div>
-		
+
 		<div region="center" style="overflow:auto;padding:5px;" border="false">
 			<form id="addStaffForm" action="${pageContext.request.contextPath}/staffAction_save.action">
 				<table class="table-edit" width="80%" align="center">

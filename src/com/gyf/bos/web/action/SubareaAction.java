@@ -160,4 +160,9 @@ public class SubareaAction extends BaseAction<Subarea>{
         System.out.println(subarea.getDecidedzone());//执行hql
 
     }
+    public String findSubareasGroupByProvince() throws IOException {
+        List<Object> list = subareaService.findSubareasGroupByProvince();
+        responseJson(list, new String[]{});
+        return NONE;
+    }
 }

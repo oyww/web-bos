@@ -16,7 +16,7 @@ public class Role  implements java.io.Serializable {
 
      private String id;
      private String name;
-     private String code;
+     private String code;//关键字
      private String description;
      private Set users = new HashSet(0);
      private Set functions = new HashSet(0);

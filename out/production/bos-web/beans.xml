@@ -102,6 +102,18 @@
             </value>
         </property>
     </bean>
+
+    <!-- 注册缓存管理器 -->
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <!-- 注入ehcache配置文件 -->
+        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"/>
+    </bean>
+
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="bos_realm"></property>
+        <!-- 注入缓存管理器 -->
+        <property name="cacheManager" ref="cacheManager"/>
+    </bean>
     <!--========================================================================-->
     <!--4.如果要使用注解来配置权限，需要声明一个代理和切面
         自动代理，会自动扫描权限注解
@@ -115,7 +127,29 @@
     <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor"></bean>
 
     <!--配置action-->
-   <!-- <bean class="com.gyf.bos.web.action.StaffAction" scope="prototype"></bean>-->
+    <!-- <bean class="com.gyf.bos.web.action.StaffAction" scope="prototype"></bean>-->
 
     <!--========================================================================-->
+    <!--配置工作流引擎框架-->
+    <!-- 流程引擎配置对象 -->
+    <bean id="processEngineConfiguration"
+          class="org.activiti.spring.SpringProcessEngineConfiguration">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="transactionManager" ref="transactionManager"/>
+        <!-- 让activiti框架自动创建表-->
+        <property name="databaseSchemaUpdate" value="true"/>
+    </bean>
+
+    <!-- 使用工厂创建流程引擎对象 -->
+    <bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
+        <property name="processEngineConfiguration" ref="processEngineConfiguration"/>
+    </bean>
+
+    <!-- 配置activiti service -->
+    <bean id="repositoryService" factory-bean="processEngine" factory-method="getRepositoryService"/>
+    <bean id="runtimeService" factory-bean="processEngine" factory-method="getRuntimeService"/>
+    <bean id="taskService" factory-bean="processEngine" factory-method="getTaskService"/>
+    <bean id="identityService" factory-bean="processEngine" factory-method="getIdentityService"/>
+
+    <bean id="historyService" factory-bean="processEngine" factory-method="getHistoryService"/>
 </beans>

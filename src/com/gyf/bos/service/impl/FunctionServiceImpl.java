@@ -28,8 +28,18 @@ public class FunctionServiceImpl extends BaseServiceImpl<Function> implements IF
     }
 
     @Override
-    public void save(Function entity) {
+    public List<Function> findMenuByUserId(String id) {
+        return functionDao.findMenuByUserId(id);
+    }
 
+    @Override
+    public List<Function> findAllMenu() {
+        return functionDao.findAllMenu();
+    }
+
+    @Override
+    public void save(Function entity) {
+        functionDao.save(entity);
     }
 
     @Override
@@ -49,6 +59,6 @@ public class FunctionServiceImpl extends BaseServiceImpl<Function> implements IF
 
     @Override
     public List<Function> findAll() {
-        return null;
+        return functionDao.findAll();
     }
 }

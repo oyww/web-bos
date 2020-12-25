@@ -75,5 +75,41 @@
         <action name="workordermanageAction_*" class="com.gyf.bos.web.action.WorkordermanageAction" method="{1}">
 
         </action>
+        <!-- 工作单-->
+        <action name="workOrderManageAction_*" class="com.gyf.bos.web.action.WorkordermanageAction" method="{1}">
+            <result name="list">/WEB-INF/pages/workflow/startransfer.jsp</result>
+        </action>
+
+        <action name="functionAction_*" class="com.gyf.bos.web.action.FunctionAction" method="{1}">
+
+        </action>
+        <action name="roleAction_*" class="com.gyf.bos.web.action.RoleAction" method="{1}">
+
+        </action>
+
+
+        <!--流程定义模型-->
+        <action name="processDefinitionAction_*" class="com.gyf.bos.web.action.ProcessDefinitionAction" method="{1}">
+
+            <result name="list">/WEB-INF/pages/workflow/processdefinition_list.jsp</result>
+
+            <!--告诉客户端返回流-文件-->
+            <result name="viewpng" type="stream">
+                <param name="contentType">image/png</param>
+                <param name="inputName">imgIS</param>
+            </result>
+        </action>
+
+
+        <!-- 流程实例-->
+        <action name="processInstanceAction_*" class="com.gyf.bos.web.action.ProcessInstanceAction" method="{1}">
+            <result name="list">/WEB-INF/pages/workflow/processinstance.jsp</result>
+        </action>
+
+        <action name="taskAction_*" class="taskAction" method="{1}">
+            <result name="list">/WEB-INF/pages/workflow/grouptask.jsp</result>
+            <result name="personalTaskList">/WEB-INF/pages/workflow/personaltask.jsp</result>
+            <result name="check">/WEB-INF/pages/workflow/check.jsp</result>
+        </action>
     </package>
 </struts>

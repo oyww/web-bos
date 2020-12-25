@@ -1,22 +1,50 @@
 package com.gyf.bos.web.realm;
 
+import com.gyf.bos.dao.IFunctionDao;
 import com.gyf.bos.dao.IUserDao;
+import com.gyf.bos.model.Function;
 import com.gyf.bos.model.User;
-import com.gyf.bos.utils.MD5Utils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.realm.Realm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 public class BOSRealm extends AuthorizingRealm {
+    /**
+     * 权限-与角色权关
+     *
+     * @param principal
+     * @return
+     */
+    @Autowired
+    private IFunctionDao functionDao;
 
+    @Override
+    protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principal) {
+        //拿到用户
+        User loginUser = (User) principal.getPrimaryPrincipal();
 
-    //必须实现的抽象父类的方法：授权
-    protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
+        //根据用户ID查权限
+        List<Function> functions = null;
+
+        //admin超级管理员
+        if (loginUser.getUsername().equals("admin")) {
+            functions = functionDao.findAll();
+        } else {
+            functions = functionDao.findListByUserId(loginUser.getId());
+        }
+
+        //往shiro添加权限
         //别用父类引用，不然特有方法不能使用
-        SimpleAuthorizationInfo info=new SimpleAuthorizationInfo();
+        SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+        for (Function function : functions) {
+            info.addStringPermission(function.getCode());
+        }
         //手动添加权限
         info.addStringPermission("staff");//字符串在配置文件中
         info.addRole("staff");//手动添加角色
@@ -24,6 +52,14 @@ public class BOSRealm extends AuthorizingRealm {
         info.addRole("admin");//手动添加角色
         return info;
     }
+
+    /**
+     * 登录认证
+     *
+     * @param authenticationToken
+     * @return
+     * @throws AuthenticationException
+     */
     @Autowired
     private IUserDao userDao;
     //必须实现的抽象父类的方法：身份认证

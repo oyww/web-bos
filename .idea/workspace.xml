@@ -7,25 +7,126 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c3c3dd7-57f4-43a5-973f-d665fc5f12b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/utils/SpringBeanFactoryUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/quartz/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/quartz/MyJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ehcache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/IRoleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/RoleDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IRoleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/RoleServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/utils/BosContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/LoginAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/ProcessDefinitionAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/ProcessInstanceAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/RoleAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/TaskAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/check.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/grouptask.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/image.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/personaltask.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/processdefinition_deploy.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/processdefinition_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/processinstance.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/workflow/startransfer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/highcharts-3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/highcharts-3d.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/boost.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/boost.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/broken-axis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/broken-axis.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/offline-exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/offline-exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/solid-gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/solid-gauge.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/treemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/modules/treemap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/dark-unica.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/grid-light.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/sand-signika.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/备份/ISubareaDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/备份/SubareaAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/备份/SubareaDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/备份/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/备份/subarea.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/beans.xml" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/com/gyf/bos/model/Workordermanage.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/com/gyf/bos/model/Workordermanage.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/classes/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function_add.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/function_add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role_add.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/role_add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userinfo.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userinfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userlist.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/admin/userlist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/region.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/region.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/staff.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/staff.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/subarea.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/base/subarea.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/common/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/bos_web_war_exploded/WEB-INF/pages/common/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bos-web/beans.xml" afterPath="$PROJECT_DIR$/out/production/bos-web/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bos-web/log4j.properties" afterPath="$PROJECT_DIR$/out/production/bos-web/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bos-web/com/gyf/bos/model/Workordermanage.hbm.xml" afterPath="$PROJECT_DIR$/out/production/bos-web/com/gyf/bos/model/Workordermanage.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bos-web/struts.xml" afterPath="$PROJECT_DIR$/out/production/bos-web/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/beans.xml" afterPath="$PROJECT_DIR$/resources/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/log4j.properties" afterPath="$PROJECT_DIR$/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/struts.xml" afterPath="$PROJECT_DIR$/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/IFunctionDao.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/IFunctionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/ISubareaDao.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/ISubareaDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/BaseDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/BaseDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/IBaseDao.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/base/IBaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/FunctionDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/FunctionDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/SubareaDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/SubareaDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/Role.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/Role.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/User.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.hbm.xml" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/IFunctionService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IFunctionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/ISubareaService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/ISubareaService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/IUserService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/IWorkordermanageService.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/IWorkordermanageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/base/BaseServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/base/BaseServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/FunctionServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/FunctionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/SubareaServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/SubareaServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/WorkordermanageServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/service/impl/WorkordermanageServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/FunctionAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/FunctionAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/SubareaAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/SubareaAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/UserAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/WorkordermanageAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/WorkordermanageAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/bos/web/realm/BOSRealm.java" afterPath="$PROJECT_DIR$/src/com/gyf/bos/web/realm/BOSRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml" afterPath="$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function_add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/function_add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role_add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/role_add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userinfo.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userinfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userlist.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/admin/userlist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/base/region.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/base/region.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/base/staff.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/base/staff.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/base/subarea.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/base/subarea.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pages/common/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/common/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,112 +138,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StaffAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/备份/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1647">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="-4293">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1526521027172" expanded="true" signature="3990:4029" ph="..." />
+                <marker date="1526521027172" expanded="true" signature="4114:4146" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaffServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/impl/StaffServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding>
-                <element signature="e#1852#1853#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringBeanFactoryUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/utils/SpringBeanFactoryUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyJob.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/quartz/MyJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/quartz/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1431">
-              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="87" column="11" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubareaAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/SubareaAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3159">
-              <caret line="117" column="68" lean-forward="false" selection-start-line="117" selection-start-column="64" selection-end-line="117" selection-end-column="73" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,7 +172,13 @@
       <find>idInputLine</find>
       <find>noticebillDao</find>
       <find>getPassword</find>
+      <find>doAdd</find>
+      <find>addSubareaWindow</find>
+      <find>showSubarea</find>
       <find>loginUrl</find>
+      <find>WorkOrderManage</find>
+      <find>RepositoryService</find>
+      <find>workOrderManageAction</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,12 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/base/IBaseDao.java" />
-        <option value="$PROJECT_DIR$/web/json/stafftest.json" />
-        <option value="$PROJECT_DIR$/web/demo/datagrid3.jsp" />
-        <option value="$PROJECT_DIR$/web/demo/upload.jsp" />
-        <option value="$PROJECT_DIR$/config/struts.xml" />
-        <option value="$PROJECT_DIR$/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/service/IRegionService.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/IRegionDao.java" />
         <option value="$PROJECT_DIR$/test/com/test/hessian-service/CustomerService.java" />
@@ -195,7 +199,6 @@
         <option value="$PROJECT_DIR$/test/com/oyww/bos/model/Customer.java" />
         <option value="$PROJECT_DIR$/web/easyui/07-datagrid2.jsp" />
         <option value="$PROJECT_DIR$/web/easyui/07-datagrid.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pages/base/subarea.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/RegionAction.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/service/impl/RegionServiceImpl.java" />
@@ -210,17 +213,31 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/base/region.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/base/staff.jsp" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/service/impl/StaffServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/gyf/bos/web/realm/BOSRealm.java" />
         <option value="$PROJECT_DIR$/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/resources/beans.xml" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/utils/dfghj.java" />
-        <option value="$PROJECT_DIR$/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/quartz/MyJob.java" />
-        <option value="$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/com/gyf/quartz/App.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/base/subarea.jsp" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/service/base/IBaseService.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/web/realm/BOSRealm.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/ISubareaDao.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/SubareaDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/SubareaAction.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/service/ISubareaService.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/service/impl/SubareaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/utils/BosContext.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/web/action/TaskAction.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/base/IBaseDao.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/base/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/service/IWorkordermanageService.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/service/impl/WorkordermanageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/com/gyf/bos/dao/impl/FunctionDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -238,10 +255,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="655" />
-    <option name="y" value="215" />
+    <option name="x" value="122" />
+    <option name="y" value="155" />
     <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="height" value="781" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -282,6 +299,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,14 +309,32 @@
             </path>
             <path>
               <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos-web" type="462c0819:PsiDirectoryNode" />
+              <item name="备份" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,23 +343,23 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1491098" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git_bos/bos" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gzbos" />
     <property name="SearchEverywhereHistoryKey" value="hql&#9;PSI&#9;JAVA://org.hibernate.hql.ast.QueryTranslatorImpl#hql" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\web\WEB-INF\lib" />
-      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\src\com\gyf\quartz\config" />
-      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\test\com\test\hessian-service" />
-      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\web\js" />
-      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\web\demo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\备份" />
+      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\备份" />
-      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\src\com\gyf\bos\dao" />
+      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\src\com\gyf\bos\service" />
+      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\src\com\gyf\bos\model" />
+      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\src\com\gyf\bos\utils" />
+      <recent name="D:\Users\OYWW\IdeaProjects\bos-web\src\com\gyf\bos\web\action" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gyf.quartz.App" />
       <option name="VM_PARAMETERS" />
@@ -515,31 +551,31 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="RestServices" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45901638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16363636" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RestServices" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6302368" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16363636" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48727274" sideWeight="0.5030534" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909092" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3970856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909092" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35267174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909092" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4571949" sideWeight="0.49694657" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859745" sideWeight="0.49694657" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118320614" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909092" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,295 +584,421 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增定时任务功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增定时任务功能" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="59" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/authc/AuthenticationInfo.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/SecurityUtils.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/authc/UsernamePasswordToken.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/org/apache/log4j/Priority.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="952">
+          <caret line="131" column="16" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/realm/AuthenticatingRealm.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.7.2.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/DecidedzoneAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state relative-caret-position="-1500">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/org/apache/log4j/Category.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/NoticebillAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
+        <state relative-caret-position="-798">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/authz/SimpleAuthorizationInfo.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/authz/AuthorizationInfo.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/RegionAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="-2256">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/base/region.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="147" column="22" lean-forward="false" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="23" />
+        <state relative-caret-position="-216">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/IStaffService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/WorkordermanageAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="-348">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/IFunctionDao.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/DecidedzoneDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/impl/FunctionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/NoticebillDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/RegionDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/StaffDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-933">
+          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/WorkbillDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/WorkordermanageDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/realm/BOSRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="-89">
+          <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/base/staff.jsp">
+    <entry file="file://$PROJECT_DIR$/备份/ISubareaDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="162">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/shiro-all-1.3.2.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/UserAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/ISubareaDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="108">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/备份/SubareaDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/SubareaDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1526352007073" expanded="true" signature="1949:2092" ph="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/ISubareaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="108">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate3.jar!/org/hibernate/criterion/DetachedCriteria.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/impl/SubareaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="316">
+          <caret line="65" column="55" lean-forward="false" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
+          <folding>
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1751#1752#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate3.jar!/org/hibernate/impl/CriteriaImpl.class">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/base/subarea.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="238" column="0" lean-forward="true" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/model/Staff.java">
+    <entry file="file://$PROJECT_DIR$/备份/subarea.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/org/apache/log4j/spi/DefaultRepositorySelector.class">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/common/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/org/apache/log4j/CategoryKey.class">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/common/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1526521027172" expanded="true" signature="3990:4029" ph="..." />
+            <marker date="1526521027172" expanded="true" signature="4114:4146" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/org/apache/log4j/Hierarchy.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/FunctionAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/org/apache/log4j/LogManager.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar!/org/apache/log4j/Logger.class">
+    <entry file="file://$PROJECT_DIR$/resources/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/TypeConverterSupport.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/utils/BosContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/AbstractPropertyAccessor.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/base/BaseDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="74">
+          <caret line="143" column="37" lean-forward="false" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
+          <folding>
+            <element signature="e#4013#4014#0" expanded="false" />
+            <element signature="e#4079#4080#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/PropertyEditorRegistrySupport.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/base/IBaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-core-3.2.0.RC2.jar!/org/springframework/util/Assert.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/IWorkordermanageDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="83">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/TypeConverterDelegate.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/TaskAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="69">
+          <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/BeanWrapperImpl.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/IWorkordermanageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="469" column="0" lean-forward="false" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/model/Workordermanage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="684" column="0" lean-forward="false" selection-start-line="684" selection-start-column="0" selection-end-line="684" selection-end-column="0" />
+        <state relative-caret-position="106">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+    <entry file="file://$PROJECT_DIR$/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/BeanUtils.class">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-3.2.0.RC2.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="449">
+          <caret line="761" column="43" lean-forward="true" selection-start-line="761" selection-start-column="43" selection-end-line="761" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/activiti-engine-5.13.jar!/org/activiti/engine/HistoryService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/model/Subarea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/IDecidedzoneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-web-3.2.0.RC2.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/impl/WorkordermanageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="103" column="12" lean-forward="false" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2806#2821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3159">
-          <caret line="117" column="68" lean-forward="false" selection-start-line="117" selection-start-column="64" selection-end-line="117" selection-end-column="73" />
+        <state relative-caret-position="274">
+          <caret line="154" column="8" lean-forward="false" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-core-3.2.0.RC2.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/qupai/quickworkorder.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/impl/DecidedzoneServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="256">
+          <caret line="174" column="13" lean-forward="true" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="180">
+          <caret line="78" column="44" lean-forward="false" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="-255">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/base/BaseAction.java">
+    <entry file="file://$PROJECT_DIR$/备份/BOSRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="87" column="11" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="11" />
+        <state relative-caret-position="154">
+          <caret line="42" column="15" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/service/impl/StaffServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/dao/impl/FunctionDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="e#1852#1853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/StaffAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -845,46 +1007,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/web/action/SubareaAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="433">
+          <caret line="163" column="51" lean-forward="false" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/bos/utils/SpringBeanFactoryUtils.java">
+    <entry file="file://$PROJECT_DIR$/备份/SubareaAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="314">
+          <caret line="165" column="14" lean-forward="true" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/备份/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4293">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/quartz/config/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/quartz/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyf/quartz/MyJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
+            <marker date="1526521027172" expanded="true" signature="3990:4029" ph="..." />
+            <marker date="1526521027172" expanded="true" signature="4114:4146" ph="..." />
           </folding>
         </state>
       </provider>
