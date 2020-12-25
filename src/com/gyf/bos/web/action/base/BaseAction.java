@@ -4,6 +4,7 @@ import com.gyf.bos.dao.IWorkordermanageDao;
 import com.gyf.bos.model.Noticebill;
 import com.gyf.bos.model.PageBean;
 import com.gyf.bos.service.*;
+import com.gyf.bos.utils.SpringBeanFactoryUtils;
 import com.gyf.crm.service.CustomerService;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
@@ -64,11 +65,14 @@ public abstract class BaseAction<T> extends ActionSupport implements ModelDriven
 
     @Autowired
     protected IFunctionService functionService;
+
     public BaseAction(){
         System.out.println("----------------");
         System.out.println(this);
         System.out.println(this.getClass().getGenericSuperclass());
-        ParameterizedType  pt = null;
+//        ParameterizedType  pt = (ParameterizedType) this.getClass().getGenericSuperclass();
+//---------------------------------------------------
+                ParameterizedType  pt = null;
        if(this.getClass().getGenericSuperclass() instanceof ParameterizedType){
             //1.获取t的真实类型
             System.out.println("1111111111111111111111");
@@ -78,7 +82,10 @@ public abstract class BaseAction<T> extends ActionSupport implements ModelDriven
             System.out.println("22222222222222222222");
         }
         System.out.println("33333333333333333333");
-
+       //-------------------------------------
+        /*if (staffService == null) {
+            staffService = SpringBeanFactoryUtils.getBean(IStaffService.class);
+        }*///TODO 最好获得所有成员变量
 
 
         //获取泛型真实类型

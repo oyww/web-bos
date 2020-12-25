@@ -108,14 +108,14 @@
     -->
     <bean id="defaultAdvisorAutoProxyCreator"
     class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator">
-    <!-- 使用cglib实现代理-->
+    <!-- 使用cglib实现代理默认false-->
     <property name="proxyTargetClass" value="true"></property>
     </bean>
 
     <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor"></bean>
 
     <!--配置action-->
-    <bean class="com.gyf.bos.web.action.StaffAction" scope="prototype"></bean>
+   <!-- <bean class="com.gyf.bos.web.action.StaffAction" scope="prototype"></bean>-->
 
     <!--========================================================================-->
 </beans>

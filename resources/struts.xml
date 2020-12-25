@@ -6,6 +6,7 @@
 
     <!-- 调试模式-->
     <constant name="struts.devMode" value="true"></constant>
+  <!--  <constant name="struts.objectFactory" value="spring" />-->
 
     <package name="p1" extends="struts-default">
         <!--&lt;!&ndash;声明一个登录拦截器&ndash;&gt;

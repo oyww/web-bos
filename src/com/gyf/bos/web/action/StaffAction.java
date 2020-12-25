@@ -15,12 +15,15 @@ import org.apache.shiro.subject.Subject;
 import org.apache.struts2.ServletActionContext;
 import org.hibernate.criterion.DetachedCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
-
+@Controller
+@Scope("prototype")
 public class StaffAction extends BaseAction<Staff> {
 
     Logger logger = Logger.getLogger(StaffAction.class);
